@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width" , intial-scale="1.0">
+    <title>News Letter PoPup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <a class="button" onclick="toggleNewsLetter()">SUBSCRIBE US</a>
+
+    <div class="hidden" id="newsletter">
+        <h2>JOIN OUR EXCLUSIVE NEWSLETTER</h2>
+        <p>FOLLOW MY OTHER COURSES AS WELL FROM MY PROFILE</p>
+        <div class="box">
+            <input type="email" placeholder="ENTER YOUR EMAIL">
+        </div>
+        <div class="box">
+            <button type="submit">SIGN UP</button>
+        </div>
+        <a class="close" onclick="toggleNewsLetter()"> <!--closing button or close icon-->
+            <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+        </a>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
